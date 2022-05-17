@@ -397,7 +397,7 @@ background-image: url(ru_nl_1.jpg)
 background-size: 20%
 background-position: 95% 5%
 
-## From political activities to politcal participation profiles
+## From political activities to political participation profiles
 
 Can we actually answer the question on changes in political participation by look at acts?
 
@@ -593,4 +593,4 @@ background-position: 95% 5%
 
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
 
-Check out the R Markdown source at the [**Github repository**]() .
+Check out the R Markdown source at the [**Github repository**](https://github.com/tmgjer/participation_lecture) .
