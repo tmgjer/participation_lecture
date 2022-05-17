@@ -1,0 +1,655 @@
+﻿country;election_type;year;voter_turnout
+Albania;Parliamentary;2021;0.463
+Albania;Parliamentary;2017;0.468
+Albania;Parliamentary;2013;0.533
+Albania;Parliamentary;2009;0.508
+Albania;Parliamentary;2005;0.487
+Albania;Parliamentary;2001;0.550
+Albania;Parliamentary;1997;0.726
+Albania;Parliamentary;1996;0.891
+Albania;Parliamentary;1992;0.915
+Albania;Parliamentary;1991;0.989
+Andorra;Parliamentary;2019;0.683
+Andorra;Parliamentary;2015;0.656
+Andorra;Parliamentary;2011;0.741
+Andorra;Parliamentary;2009;0.753
+Andorra;Parliamentary;2005;0.804
+Andorra;Parliamentary;2001;0.816
+Andorra;Parliamentary;1997;0.816
+Andorra;Parliamentary;1993;0.809
+Austria;Parliamentary;2019;0.756
+Austria;Parliamentary;2017;0.800
+Austria;Parliamentary;2013;0.749
+Austria;Parliamentary;2008;0.788
+Austria;Parliamentary;2006;0.785
+Austria;Parliamentary;2002;0.843
+Austria;Parliamentary;1999;0.804
+Austria;Parliamentary;1995;0.860
+Austria;Parliamentary;1994;0.825
+Austria;Parliamentary;1990;0.861
+Austria;Parliamentary;1986;0.905
+Austria;Parliamentary;1983;0.926
+Austria;Parliamentary;1979;0.922
+Austria;Parliamentary;1975;0.929
+Austria;Parliamentary;1971;0.924
+Austria;Parliamentary;1970;0.918
+Austria;Parliamentary;1966;0.938
+Austria;Parliamentary;1962;0.938
+Austria;Parliamentary;1959;0.942
+Austria;Parliamentary;1956;0.960
+Austria;Parliamentary;1953;0.958
+Austria;Parliamentary;1949;0.968
+Austria;Parliamentary;1945;0.943
+Belarus;Parliamentary;2019;0.773
+Belarus;Parliamentary;2016;0.747
+Belarus;Parliamentary;2012;0.742
+Belarus;Parliamentary;2008;0.767
+Belarus;Parliamentary;2004;0.901
+Belarus;Parliamentary;2000;0.611
+Belarus;Parliamentary;1995;0.564
+Belgium;Parliamentary;2019;0.884
+Belgium;Parliamentary;2014;0.894
+Belgium;Parliamentary;2010;0.892
+Belgium;Parliamentary;2007;0.911
+Belgium;Parliamentary;2003;0.916
+Belgium;Parliamentary;1999;0.906
+Belgium;Parliamentary;1995;0.912
+Belgium;Parliamentary;1991;0.927
+Belgium;Parliamentary;1987;0.934
+Belgium;Parliamentary;1985;0.936
+Belgium;Parliamentary;1981;0.946
+Belgium;Parliamentary;1978;0.949
+Belgium;Parliamentary;1977;0.951
+Belgium;Parliamentary;1974;0.904
+Belgium;Parliamentary;1971;0.916
+Belgium;Parliamentary;1968;0.900
+Belgium;Parliamentary;1965;0.916
+Belgium;Parliamentary;1961;0.923
+Belgium;Parliamentary;1958;0.936
+Belgium;Parliamentary;1954;0.932
+Belgium;Parliamentary;1950;0.926
+Belgium;Parliamentary;1949;0.944
+Belgium;Parliamentary;1946;0.903
+Bosnia and Herzegovina;Parliamentary;2018;0.540
+Bosnia and Herzegovina;Parliamentary;2014;0.545
+Bosnia and Herzegovina;Parliamentary;2010;0.565
+Bosnia and Herzegovina;Parliamentary;2006;0.549
+Bosnia and Herzegovina;Parliamentary;2002;0.555
+Bosnia and Herzegovina;Parliamentary;2000;0.637
+Bosnia and Herzegovina;Parliamentary;1998;0.707
+Bosnia and Herzegovina;Parliamentary;1996;0.461
+Bulgaria;Parliamentary;2021;0.491
+Bulgaria;Parliamentary;2017;0.539
+Bulgaria;Parliamentary;2014;0.511
+Bulgaria;Parliamentary;2013;0.525
+Bulgaria;Parliamentary;2009;0.606
+Bulgaria;Parliamentary;2005;0.558
+Bulgaria;Parliamentary;2001;0.666
+Bulgaria;Parliamentary;1997;0.589
+Bulgaria;Parliamentary;1994;0.752
+Bulgaria;Parliamentary;1991;0.839
+Croatia;Parliamentary;2020;0.469
+Croatia;Parliamentary;2016;0.526
+Croatia;Parliamentary;2015;0.608
+Croatia;Parliamentary;2011;0.542
+Croatia;Parliamentary;2007;0.596
+Croatia;Parliamentary;2003;0.617
+Croatia;Parliamentary;2000;0.766
+Croatia;Parliamentary;1995;0.688
+Croatia;Parliamentary;1992;0.756
+Croatia;Parliamentary;1990;0.845
+Cyprus;Parliamentary;2021;0.657
+Cyprus;Parliamentary;2016;0.667
+Cyprus;Parliamentary;2011;0.787
+Cyprus;Parliamentary;2006;0.890
+Cyprus;Parliamentary;2001;0.918
+Cyprus;Parliamentary;1996;0.901
+Cyprus;Parliamentary;1991;0.943
+Cyprus;Parliamentary;1985;0.946
+Cyprus;Parliamentary;1981;0.958
+Cyprus;Parliamentary;1976;0.853
+Cyprus;Parliamentary;1970;0.759
+Czech Republic;Parliamentary;2021;0.654
+Czech Republic;Parliamentary;2017;0.608
+Czech Republic;Parliamentary;2013;0.595
+Czech Republic;Parliamentary;2010;0.626
+Czech Republic;Parliamentary;2006;0.645
+Czech Republic;Parliamentary;2002;0.580
+Czech Republic;Parliamentary;1998;0.740
+Czech Republic;Parliamentary;1996;0.763
+Czech Republic;Parliamentary;1992;0.847
+Czech Republic;Parliamentary;1990;0.963
+Denmark;Parliamentary;2019;0.846
+Denmark;Parliamentary;2015;0.859
+Denmark;Parliamentary;2011;0.877
+Denmark;Parliamentary;2007;0.866
+Denmark;Parliamentary;2005;0.845
+Denmark;Parliamentary;2001;0.872
+Denmark;Parliamentary;1998;0.860
+Denmark;Parliamentary;1994;0.843
+Denmark;Parliamentary;1990;0.829
+Denmark;Parliamentary;1988;0.857
+Denmark;Parliamentary;1987;0.867
+Denmark;Parliamentary;1984;0.884
+Denmark;Parliamentary;1981;0.878
+Denmark;Parliamentary;1979;0.856
+Denmark;Parliamentary;1977;0.887
+Denmark;Parliamentary;1975;0.882
+Denmark;Parliamentary;1973;0.887
+Denmark;Parliamentary;1971;0.872
+Denmark;Parliamentary;1968;0.893
+Denmark;Parliamentary;1966;0.886
+Denmark;Parliamentary;1964;0.855
+Denmark;Parliamentary;1960;0.858
+Denmark;Parliamentary;1957;0.837
+Denmark;Parliamentary;1953;0.806
+Denmark;Parliamentary;1950;0.819
+Denmark;Parliamentary;1947;0.858
+Denmark;Parliamentary;1945;0.863
+Estonia;Parliamentary;2019;0.637
+Estonia;Parliamentary;2015;0.642
+Estonia;Parliamentary;2011;0.635
+Estonia;Parliamentary;2007;0.619
+Estonia;Parliamentary;2003;0.582
+Estonia;Parliamentary;1999;0.574
+Estonia;Parliamentary;1995;0.689
+Estonia;Parliamentary;1992;0.678
+Estonia;Parliamentary;1990;0.782
+Faroe Islands;Parliamentary;2019;0.894
+Faroe Islands;Parliamentary;2015;0.885
+Faroe Islands;Parliamentary;2008;0.895
+Faroe Islands;Parliamentary;2004;0.923
+Faroe Islands;Parliamentary;2002;0.916
+Faroe Islands;Parliamentary;1998;0.882
+Finland;Parliamentary;2019;0.687
+Finland;Parliamentary;2015;0.669
+Finland;Parliamentary;2011;0.674
+Finland;Parliamentary;2007;0.650
+Finland;Parliamentary;2003;0.667
+Finland;Parliamentary;1999;0.653
+Finland;Parliamentary;1995;0.686
+Finland;Parliamentary;1991;0.684
+Finland;Parliamentary;1987;0.721
+Finland;Parliamentary;1983;0.757
+Finland;Parliamentary;1979;0.753
+Finland;Parliamentary;1975;0.738
+Finland;Parliamentary;1972;0.814
+Finland;Parliamentary;1970;0.822
+Finland;Parliamentary;1966;0.849
+Finland;Parliamentary;1962;0.851
+Finland;Parliamentary;1958;0.750
+Finland;Parliamentary;1954;0.799
+Finland;Parliamentary;1951;0.746
+Finland;Parliamentary;1948;0.783
+Finland;Parliamentary;1945;0.749
+France;Parliamentary;2017;0.487
+France;Parliamentary;2012;0.572
+France;Parliamentary;2007;0.600
+France;Parliamentary;2002;0.603
+France;Parliamentary;1997;0.680
+France;Parliamentary;1993;0.689
+France;Parliamentary;1988;0.662
+France;Parliamentary;1986;0.785
+France;Parliamentary;1981;0.709
+France;Parliamentary;1978;0.716
+France;Parliamentary;1973;0.813
+France;Parliamentary;1968;0.799
+France;Parliamentary;1967;0.811
+France;Parliamentary;1962;0.687
+France;Parliamentary;1958;0.772
+France;Parliamentary;1956;0.827
+France;Parliamentary;1951;0.802
+France;Parliamentary;1946;0.819
+France;Parliamentary;1945;0.798
+Germany;Parliamentary;2021;0.766
+Germany;Parliamentary;2017;0.762
+Germany;Parliamentary;2013;0.715
+Germany;Parliamentary;2009;0.708
+Germany;Parliamentary;2005;0.777
+Germany;Parliamentary;2002;0.791
+Germany;Parliamentary;1998;0.822
+Germany;Parliamentary;1994;0.790
+Germany;Parliamentary;1990;0.778
+Germany;Parliamentary;1987;0.843
+Germany;Parliamentary;1983;0.891
+Germany;Parliamentary;1980;0.886
+Germany;Parliamentary;1976;0.908
+Germany;Parliamentary;1972;0.911
+Germany;Parliamentary;1969;0.867
+Germany;Parliamentary;1965;0.868
+Germany;Parliamentary;1961;0.877
+Germany;Parliamentary;1957;0.878
+Germany;Parliamentary;1953;0.860
+Germany;Parliamentary;1949;0.785
+Gibraltar;Parliamentary;2019;0.708
+Gibraltar;Parliamentary;2015;0.708
+Gibraltar;Parliamentary;2011;0.825
+Greece;Parliamentary;2019;0.578
+Greece;Parliamentary;2015;0.639
+Greece;Parliamentary;2012;0.625
+Greece;Parliamentary;2009;0.709
+Greece;Parliamentary;2007;0.741
+Greece;Parliamentary;2004;0.766
+Greece;Parliamentary;2000;0.750
+Greece;Parliamentary;1996;0.763
+Greece;Parliamentary;1993;0.830
+Greece;Parliamentary;1989;0.845
+Greece;Parliamentary;1985;0.838
+Greece;Parliamentary;1981;0.815
+Greece;Parliamentary;1977;0.811
+Greece;Parliamentary;1974;0.796
+Greece;Parliamentary;1964;0.817
+Greece;Parliamentary;1963;0.830
+Greece;Parliamentary;1961;0.819
+Greece;Parliamentary;1958;0.755
+Greece;Parliamentary;1956;0.750
+Greece;Parliamentary;1952;0.754
+Greece;Parliamentary;1951;0.772
+Hungary;Parliamentary;2018;0.697
+Hungary;Parliamentary;2014;0.618
+Hungary;Parliamentary;2010;0.644
+Hungary;Parliamentary;2006;0.676
+Hungary;Parliamentary;2002;0.705
+Hungary;Parliamentary;1998;0.570
+Hungary;Parliamentary;1994;0.689
+Hungary;Parliamentary;1990;0.651
+Iceland;Parliamentary;2021;0.801
+Iceland;Parliamentary;2017;0.812
+Iceland;Parliamentary;2016;0.792
+Iceland;Parliamentary;2013;0.814
+Iceland;Parliamentary;2009;0.851
+Iceland;Parliamentary;2007;0.836
+Iceland;Parliamentary;2003;0.877
+Iceland;Parliamentary;1999;0.841
+Iceland;Parliamentary;1995;0.874
+Iceland;Parliamentary;1991;0.876
+Iceland;Parliamentary;1987;0.901
+Iceland;Parliamentary;1983;0.886
+Iceland;Parliamentary;1979;0.893
+Iceland;Parliamentary;1978;0.903
+Iceland;Parliamentary;1974;0.914
+Iceland;Parliamentary;1971;0.904
+Iceland;Parliamentary;1967;0.914
+Iceland;Parliamentary;1963;0.911
+Iceland;Parliamentary;1959;0.906
+Iceland;Parliamentary;1956;0.921
+Iceland;Parliamentary;1953;0.899
+Iceland;Parliamentary;1949;0.890
+Iceland;Parliamentary;1946;0.874
+Ireland;Parliamentary;2020;0.628
+Ireland;Parliamentary;2016;0.651
+Ireland;Parliamentary;2011;0.699
+Ireland;Parliamentary;2007;0.670
+Ireland;Parliamentary;2002;0.626
+Ireland;Parliamentary;1997;0.659
+Ireland;Parliamentary;1992;0.685
+Ireland;Parliamentary;1989;0.685
+Ireland;Parliamentary;1987;0.733
+Ireland;Parliamentary;1982;0.729
+Ireland;Parliamentary;1981;0.762
+Ireland;Parliamentary;1977;0.763
+Ireland;Parliamentary;1973;0.766
+Ireland;Parliamentary;1969;0.769
+Ireland;Parliamentary;1965;0.751
+Ireland;Parliamentary;1961;0.706
+Ireland;Parliamentary;1957;0.713
+Ireland;Parliamentary;1954;0.765
+Ireland;Parliamentary;1951;0.753
+Ireland;Parliamentary;1948;0.743
+Italy;Parliamentary;2018;0.729
+Italy;Parliamentary;2013;0.752
+Italy;Parliamentary;2008;0.805
+Italy;Parliamentary;2006;0.836
+Italy;Parliamentary;2001;0.814
+Italy;Parliamentary;1996;0.829
+Italy;Parliamentary;1994;0.861
+Italy;Parliamentary;1992;0.874
+Italy;Parliamentary;1987;0.889
+Italy;Parliamentary;1983;0.890
+Italy;Parliamentary;1979;0.904
+Italy;Parliamentary;1976;0.934
+Italy;Parliamentary;1972;0.932
+Italy;Parliamentary;1968;0.928
+Italy;Parliamentary;1963;0.929
+Italy;Parliamentary;1958;0.937
+Italy;Parliamentary;1953;0.939
+Italy;Parliamentary;1948;0.922
+Italy;Parliamentary;1946;0.891
+Kosovo;Parliamentary;2021;0.488
+Kosovo;Parliamentary;2019;0.432
+Kosovo;Parliamentary;2017;0.413
+Kosovo;Parliamentary;2014;0.426
+Kosovo;Parliamentary;2010;0.456
+Kosovo;Parliamentary;2007;0.432
+Kosovo;Parliamentary;2004;0.495
+Latvia;Parliamentary;2018;0.546
+Latvia;Parliamentary;2014;0.588
+Latvia;Parliamentary;2011;0.595
+Latvia;Parliamentary;2010;0.647
+Latvia;Parliamentary;2006;0.610
+Latvia;Parliamentary;2002;0.712
+Latvia;Parliamentary;1998;0.719
+Latvia;Parliamentary;1995;0.719
+Latvia;Parliamentary;1993;0.899
+Latvia;Parliamentary;1990;0.812
+Liechtenstein;Parliamentary;2021;0.780
+Liechtenstein;Parliamentary;2017;0.778
+Liechtenstein;Parliamentary;2013;0.798
+Liechtenstein;Parliamentary;2009;0.846
+Liechtenstein;Parliamentary;2005;0.865
+Liechtenstein;Parliamentary;2001;0.867
+Liechtenstein;Parliamentary;1997;0.869
+Liechtenstein;Parliamentary;1993;0.875
+Liechtenstein;Parliamentary;1989;0.909
+Liechtenstein;Parliamentary;1986;0.933
+Liechtenstein;Parliamentary;1982;0.954
+Liechtenstein;Parliamentary;1978;0.957
+Liechtenstein;Parliamentary;1974;0.956
+Liechtenstein;Parliamentary;1970;0.949
+Liechtenstein;Parliamentary;1966;0.957
+Liechtenstein;Parliamentary;1962;0.947
+Liechtenstein;Parliamentary;1958;0.965
+Liechtenstein;Parliamentary;1957;0.935
+Liechtenstein;Parliamentary;1953;0.908
+Liechtenstein;Parliamentary;1949;0.920
+Liechtenstein;Parliamentary;1945;0.934
+Lithuania;Parliamentary;2020;0.478
+Lithuania;Parliamentary;2016;0.506
+Lithuania;Parliamentary;2012;0.529
+Lithuania;Parliamentary;2008;0.486
+Lithuania;Parliamentary;2004;0.460
+Lithuania;Parliamentary;2000;0.582
+Lithuania;Parliamentary;1996;0.529
+Lithuania;Parliamentary;1992;0.752
+Lithuania;Parliamentary;1990;0.717
+Luxembourg;Parliamentary;2018;0.897
+Luxembourg;Parliamentary;2013;0.912
+Luxembourg;Parliamentary;2009;0.909
+Luxembourg;Parliamentary;2004;0.917
+Luxembourg;Parliamentary;1999;0.865
+Luxembourg;Parliamentary;1994;0.883
+Luxembourg;Parliamentary;1989;0.874
+Luxembourg;Parliamentary;1984;0.888
+Luxembourg;Parliamentary;1979;0.889
+Luxembourg;Parliamentary;1974;0.901
+Luxembourg;Parliamentary;1968;0.886
+Luxembourg;Parliamentary;1964;0.906
+Luxembourg;Parliamentary;1959;0.923
+Luxembourg;Parliamentary;1954;0.927
+Luxembourg;Parliamentary;1951;0.908
+Luxembourg;Parliamentary;1948;0.919
+Malta;Parliamentary;2017;0.921
+Malta;Parliamentary;2013;0.930
+Malta;Parliamentary;2008;0.933
+Malta;Parliamentary;2003;0.957
+Malta;Parliamentary;1998;0.954
+Malta;Parliamentary;1996;0.972
+Malta;Parliamentary;1992;0.960
+Malta;Parliamentary;1987;0.961
+Malta;Parliamentary;1981;0.946
+Malta;Parliamentary;1976;0.950
+Malta;Parliamentary;1971;0.929
+Malta;Parliamentary;1966;0.897
+Malta;Parliamentary;1962;0.908
+Malta;Parliamentary;1955;0.812
+Malta;Parliamentary;1953;0.804
+Malta;Parliamentary;1951;0.746
+Malta;Parliamentary;1950;0.760
+Malta;Parliamentary;1947;0.754
+Moldova, Republic of;Parliamentary;2021;0.485
+Moldova, Republic of;Parliamentary;2019;0.520
+Moldova, Republic of;Parliamentary;2014;0.558
+Moldova, Republic of;Parliamentary;2010;0.634
+Moldova, Republic of;Parliamentary;2009;0.588
+Moldova, Republic of;Parliamentary;2005;0.648
+Moldova, Republic of;Parliamentary;2001;0.700
+Moldova, Republic of;Parliamentary;1998;0.691
+Moldova, Republic of;Parliamentary;1994;0.793
+Monaco;Parliamentary;2018;0.704
+Monaco;Parliamentary;2013;0.746
+Monaco;Parliamentary;2008;0.769
+Monaco;Parliamentary;2003;0.797
+Monaco;Parliamentary;1998;0.654
+Monaco;Parliamentary;1993;0.666
+Monaco;Parliamentary;1988;0.703
+Monaco;Parliamentary;1983;0.751
+Monaco;Parliamentary;1978;0.746
+Monaco;Parliamentary;1973;0.723
+Monaco;Parliamentary;1968;0.723
+Montenegro;Parliamentary;2020;0.767
+Montenegro;Parliamentary;2016;0.734
+Montenegro;Parliamentary;2012;0.706
+Montenegro;Parliamentary;2009;0.662
+Montenegro;Parliamentary;2006;0.721
+Netherlands;Parliamentary;2021;0.787
+Netherlands;Parliamentary;2017;0.819
+Netherlands;Parliamentary;2012;0.746
+Netherlands;Parliamentary;2010;0.754
+Netherlands;Parliamentary;2006;0.804
+Netherlands;Parliamentary;2003;0.800
+Netherlands;Parliamentary;2002;0.791
+Netherlands;Parliamentary;1998;0.732
+Netherlands;Parliamentary;1994;0.788
+Netherlands;Parliamentary;1989;0.803
+Netherlands;Parliamentary;1986;0.858
+Netherlands;Parliamentary;1982;0.810
+Netherlands;Parliamentary;1981;0.870
+Netherlands;Parliamentary;1977;0.880
+Netherlands;Parliamentary;1972;0.835
+Netherlands;Parliamentary;1971;0.791
+Netherlands;Parliamentary;1967;0.950
+Netherlands;Parliamentary;1963;0.951
+Netherlands;Parliamentary;1959;0.956
+Netherlands;Parliamentary;1956;0.955
+Netherlands;Parliamentary;1952;0.950
+Netherlands;Parliamentary;1948;0.937
+Netherlands;Parliamentary;1946;0.931
+North Macedonia, Republic of ;Parliamentary;2020;0.520
+North Macedonia, Republic of ;Parliamentary;2016;0.668
+North Macedonia, Republic of ;Parliamentary;2014;0.630
+North Macedonia, Republic of ;Parliamentary;2011;0.635
+North Macedonia, Republic of ;Parliamentary;2008;0.580
+North Macedonia, Republic of ;Parliamentary;2006;0.560
+North Macedonia, Republic of ;Parliamentary;2002;0.746
+North Macedonia, Republic of ;Parliamentary;1998;0.729
+North Macedonia, Republic of ;Parliamentary;1994;0.773
+North Macedonia, Republic of ;Parliamentary;1990;0.812
+Norway;Parliamentary;2021;0.772
+Norway;Parliamentary;2017;0.782
+Norway;Parliamentary;2013;0.782
+Norway;Parliamentary;2009;0.764
+Norway;Parliamentary;2005;0.774
+Norway;Parliamentary;2001;0.755
+Norway;Parliamentary;1997;0.783
+Norway;Parliamentary;1993;0.759
+Norway;Parliamentary;1989;0.832
+Norway;Parliamentary;1985;0.840
+Norway;Parliamentary;1981;0.820
+Norway;Parliamentary;1977;0.829
+Norway;Parliamentary;1973;0.802
+Norway;Parliamentary;1969;0.838
+Norway;Parliamentary;1965;0.854
+Norway;Parliamentary;1961;0.791
+Norway;Parliamentary;1957;0.783
+Norway;Parliamentary;1953;0.793
+Norway;Parliamentary;1949;0.820
+Norway;Parliamentary;1945;0.764
+Poland;Parliamentary;2019;0.617
+Poland;Parliamentary;2015;0.509
+Poland;Parliamentary;2011;0.489
+Poland;Parliamentary;2007;0.539
+Poland;Parliamentary;2005;0.406
+Poland;Parliamentary;2001;0.462
+Poland;Parliamentary;1997;0.479
+Poland;Parliamentary;1993;0.521
+Poland;Parliamentary;1991;0.432
+Poland;Parliamentary;1989;0.621
+Poland;Parliamentary;1985;0.789
+Poland;Parliamentary;1980;0.989
+Poland;Parliamentary;1976;0.983
+Poland;Parliamentary;1972;0.979
+Poland;Parliamentary;1969;0.976
+Poland;Parliamentary;1965;0.966
+Poland;Parliamentary;1961;0.948
+Poland;Parliamentary;1957;0.941
+Poland;Parliamentary;1952;0.950
+Portugal;Parliamentary;2019;0.486
+Portugal;Parliamentary;2015;0.558
+Portugal;Parliamentary;2011;0.580
+Portugal;Parliamentary;2009;0.597
+Portugal;Parliamentary;2005;0.643
+Portugal;Parliamentary;2002;0.628
+Portugal;Parliamentary;1999;0.611
+Portugal;Parliamentary;1995;0.663
+Portugal;Parliamentary;1991;0.682
+Portugal;Parliamentary;1987;0.726
+Portugal;Parliamentary;1985;0.754
+Portugal;Parliamentary;1983;0.786
+Portugal;Parliamentary;1980;0.855
+Portugal;Parliamentary;1979;0.875
+Portugal;Parliamentary;1976;0.833
+Portugal;Parliamentary;1975;0.917
+Romania;Parliamentary;2020;0.318
+Romania;Parliamentary;2016;0.378
+Romania;Parliamentary;2012;0.418
+Romania;Parliamentary;2008;0.392
+Romania;Parliamentary;2004;0.585
+Romania;Parliamentary;2000;0.653
+Romania;Parliamentary;1996;0.760
+Romania;Parliamentary;1992;0.763
+Romania;Parliamentary;1990;0.797
+Russian Federation;Parliamentary;2021;0.516
+Russian Federation;Parliamentary;2016;0.479
+Russian Federation;Parliamentary;2011;0.601
+Russian Federation;Parliamentary;2007;0.637
+Russian Federation;Parliamentary;2003;0.557
+Russian Federation;Parliamentary;1999;0.623
+Russian Federation;Parliamentary;1995;0.647
+Russian Federation;Parliamentary;1993;0.500
+San Marino;Parliamentary;2019;0.557
+San Marino;Parliamentary;2016;0.597
+San Marino;Parliamentary;2012;0.639
+San Marino;Parliamentary;2008;0.685
+San Marino;Parliamentary;2006;0.718
+San Marino;Parliamentary;2001;0.738
+San Marino;Parliamentary;1998;0.753
+San Marino;Parliamentary;1993;0.803
+San Marino;Parliamentary;1988;0.811
+San Marino;Parliamentary;1983;0.795
+San Marino;Parliamentary;1978;0.790
+San Marino;Parliamentary;1974;0.797
+Serbia;Parliamentary;2020;0.489
+Serbia;Parliamentary;2016;0.561
+Serbia;Parliamentary;2014;0.531
+Serbia;Parliamentary;2012;0.578
+Serbia;Parliamentary;2008;0.614
+Serbia;Parliamentary;2007;0.606
+Slovakia;Parliamentary;2020;0.658
+Slovakia;Parliamentary;2016;0.598
+Slovakia;Parliamentary;2012;0.591
+Slovakia;Parliamentary;2010;0.588
+Slovakia;Parliamentary;2006;0.547
+Slovakia;Parliamentary;2002;0.701
+Slovakia;Parliamentary;1998;0.843
+Slovakia;Parliamentary;1994;0.754
+Slovakia;Parliamentary;1992;0.847
+Slovakia;Parliamentary;1990;0.963
+Slovenia;Parliamentary;2018;0.526
+Slovenia;Parliamentary;2014;0.517
+Slovenia;Parliamentary;2011;0.656
+Slovenia;Parliamentary;2008;0.631
+Slovenia;Parliamentary;2004;0.606
+Slovenia;Parliamentary;2000;0.704
+Slovenia;Parliamentary;1996;0.737
+Slovenia;Parliamentary;1992;0.859
+Spain;Parliamentary;2019;0.718
+Spain;Parliamentary;2016;0.698
+Spain;Parliamentary;2015;0.732
+Spain;Parliamentary;2011;0.689
+Spain;Parliamentary;2008;0.753
+Spain;Parliamentary;2004;0.757
+Spain;Parliamentary;2000;0.687
+Spain;Parliamentary;1996;0.781
+Spain;Parliamentary;1993;0.771
+Spain;Parliamentary;1989;0.700
+Spain;Parliamentary;1986;0.704
+Spain;Parliamentary;1982;0.798
+Spain;Parliamentary;1979;0.681
+Spain;Parliamentary;1977;0.770
+Sweden;Parliamentary;2018;0.872
+Sweden;Parliamentary;2014;0.858
+Sweden;Parliamentary;2010;0.846
+Sweden;Parliamentary;2006;0.820
+Sweden;Parliamentary;2002;0.801
+Sweden;Parliamentary;1998;0.814
+Sweden;Parliamentary;1994;0.868
+Sweden;Parliamentary;1991;0.867
+Sweden;Parliamentary;1988;0.860
+Sweden;Parliamentary;1985;0.899
+Sweden;Parliamentary;1982;0.915
+Sweden;Parliamentary;1979;0.907
+Sweden;Parliamentary;1976;0.918
+Sweden;Parliamentary;1973;0.908
+Sweden;Parliamentary;1970;0.883
+Sweden;Parliamentary;1968;0.893
+Sweden;Parliamentary;1964;0.839
+Sweden;Parliamentary;1960;0.859
+Sweden;Parliamentary;1958;0.774
+Sweden;Parliamentary;1956;0.798
+Sweden;Parliamentary;1952;0.791
+Sweden;Parliamentary;1948;0.827
+Switzerland;Parliamentary;2019;0.451
+Switzerland;Parliamentary;2015;0.485
+Switzerland;Parliamentary;2011;0.495
+Switzerland;Parliamentary;2007;0.483
+Switzerland;Parliamentary;2003;0.452
+Switzerland;Parliamentary;1999;0.433
+Switzerland;Parliamentary;1995;0.422
+Switzerland;Parliamentary;1991;0.461
+Switzerland;Parliamentary;1987;0.465
+Switzerland;Parliamentary;1983;0.489
+Switzerland;Parliamentary;1979;0.481
+Switzerland;Parliamentary;1975;0.524
+Switzerland;Parliamentary;1971;0.569
+Switzerland;Parliamentary;1967;0.657
+Switzerland;Parliamentary;1963;0.661
+Switzerland;Parliamentary;1959;0.685
+Switzerland;Parliamentary;1955;0.701
+Switzerland;Parliamentary;1951;0.712
+Switzerland;Parliamentary;1947;0.724
+Ukraine;Parliamentary;2019;0.492
+Ukraine;Parliamentary;2014;0.524
+Ukraine;Parliamentary;2012;0.574
+Ukraine;Parliamentary;2007;0.620
+Ukraine;Parliamentary;2006;0.672
+Ukraine;Parliamentary;2002;0.692
+Ukraine;Parliamentary;1998;0.707
+Ukraine;Parliamentary;1994;0.758
+United Kingdom;Parliamentary;2019;0.676
+United Kingdom;Parliamentary;2017;0.693
+United Kingdom;Parliamentary;2015;0.661
+United Kingdom;Parliamentary;2010;0.658
+United Kingdom;Parliamentary;2005;0.614
+United Kingdom;Parliamentary;2001;0.594
+United Kingdom;Parliamentary;1997;0.715
+United Kingdom;Parliamentary;1992;0.778
+United Kingdom;Parliamentary;1987;0.754
+United Kingdom;Parliamentary;1983;0.728
+United Kingdom;Parliamentary;1979;0.760
+United Kingdom;Parliamentary;1974;0.729
+United Kingdom;Parliamentary;1970;0.722
+United Kingdom;Parliamentary;1966;0.760
+United Kingdom;Parliamentary;1964;0.772
+United Kingdom;Parliamentary;1959;0.787
+United Kingdom;Parliamentary;1955;0.768
+United Kingdom;Parliamentary;1951;0.819
+United Kingdom;Parliamentary;1950;0.836
+United Kingdom;Parliamentary;1945;0.726
+Yugoslavia, FR/Union of Serbia and Montenegro;Parliamentary;2003;0.588
+Yugoslavia, FR/Union of Serbia and Montenegro;Parliamentary;2000;0.642
+Yugoslavia, FR/Union of Serbia and Montenegro;Parliamentary;1996;0.533
+Yugoslavia, FR/Union of Serbia and Montenegro;Parliamentary;1993;0.674
+Yugoslavia, SFR (1943-1992);Parliamentary;1992;0.561
+Yugoslavia, SFR (1943-1992);Parliamentary;1953;0.894
+Yugoslavia, SFR (1943-1992);Parliamentary;1950;0.919
+Yugoslavia, SFR (1943-1992);Parliamentary;1945;0.887

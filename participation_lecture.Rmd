@@ -1,0 +1,596 @@
+---
+title: "Political Participation"
+author: "Thijmen Jeroense"
+institute: "Department of Sociology/ICS"
+date: "18-05-2022"
+output:
+  xaringan::moon_reader:
+    css: ["default", "theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, cache = T, message = F, warning = F)
+```
+
+```{r citations set}
+#set citations and references
+
+library(RefManageR)
+
+BibOptions(
+check.entries = FALSE, 
+bib.style = "authoryear", 
+cite.style = "authoryear", 
+style = "markdown",
+hyperlink = FALSE, 
+dashed = FALSE)
+
+myBib <- ReadBib("bib.bib")
+```
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## What will we do today?
+
+1. Conceptualizing Political Participation (**activity approach**)
+  - Traditional approach
+  - The fundamental problem
+  - Van Deth’s operational definition
+--
+
+2. Trends in political participation
+  - Theory
+  - Empirical evidence
+    + Trends in political participation (ESS 2002-2019)
+    + In depth overview (LISS core studies, NRO 2017)
+--
+3. Conceptualizing Political Participation (**profile approach**)
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+class: center,middle
+# Section 1 
+**Conceptualizing Political Participation**
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## Traditional conceptualization
+
+.pull-left[
+<blockquote>
+Those activities by private citizens that are more or less directly aimed at influencing the selection of governmental personnel and/or the actions they take. 
+.right[-- <cite>Verba and Nie (1972)</cite>]
+</blockquote>
+
+]
+--
+
+.pull-right[
+Four different modes:
+1. Voting
+2. Campaign activity
+3. Cooperative activity
+4. Citizen-initiated contacts
+]
+
+--
+<br>
+<br>
+
+Verba and Nie are mainly focused on conceptualizing activities that operate within the political institutions.
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## Traditional conceptualization 
+
+- Kaase and Marsh (1979) expand the concept
+- Political action
+-- 
+- Distinction between conventional and unconventional forms of political action
+- For example: protests, boycots, wearing a campaign badge
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## The fundamental problem
+
+- Increase in new and emerging forms of political action
+- Traditional conceptualization is unable to capture this
+- Validity problem in political participation research
+
+--
+
+Two options that are often used to tackle this problem (van Deth 2014; Theocharis and van Deth 2018):
+
+  1. Change the concept so it entails all citizens activities
+  2. Be strict and adhere to the traditional conventional/unconventional dichotomy
+  
+--
+
+What to do now?
+
+--
+
+Redefine the concept so we can recognize a political act and classify it (van Deth, 2014)
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## Conceptual map of political participation
+
+Start with what is unproblematic 
+1. Action
+--
+
+2. Citizens
+--
+
+3. Voluntary
+--
+
+4. Aimed at politics. (Political system or policy process)
+
+--
+
+Operational definition (see: Hempel 1965)
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+class: center,middle
+# Section 2 
+**Trends in Political Participation**
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## Trends in Political Participation (in Western Europe) 
+
+```{r turnout graph, fig.retina= 3,  fig.align='center', fig.width= 8, fig.height=7}
+library(tidyverse)
+library(magrittr)
+library(data.table)
+library(viridis)
+
+turnout_data <- read_delim("data/idea_export_turnout.csv")
+
+sample <- c("Germany", "Belgium", "Denmark", "Sweden", "Switzerland", "Italy", "France", "Spain", "Portugal", "United Kingdom", "Netherlands")
+
+turnout_data %>%
+  filter((country %in% sample)) %>%
+  mutate(group = ifelse(country == "Netherlands" & year < 1971, 1, 0)) %>%
+  mutate(voter_turnout = voter_turnout*100) %>%
+  ggplot(aes(y = voter_turnout, x = year, colour = as.factor(group))) +
+  facet_wrap(vars(country)) +
+  geom_smooth(method = "lm") +
+  geom_point(color = "black") +
+  theme(panel.background = element_rect(fill = "#E0E0E0"),
+        plot.background = element_rect(fill = "#E0E0E0"),
+        panel.grid = element_line(colour = "grey"),
+        text = element_text(family = "sans", size = 12), 
+        axis.title.x = element_blank(),
+        strip.background = element_rect(fill = "#A9A9A9"),
+        panel.grid.minor = element_blank(),
+        legend.position = "none") +
+  scale_y_continuous(breaks = seq(0,100, by = 10), limits = c(0,100)) +
+  scale_color_viridis(discrete = T) +
+  labs(y = "Percentage",
+       title = "Figure 2. Trends in turnout during National Elections.",
+       caption = "Source: International Institute for Democracy and Electoral Assistance")
+
+```
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## Trends in Political Participation
+
+Is this decline is compensated by participation in targeted and motivational modes?
+
+--
+
+Theoretical backing:
+  1. Postmaterialists (Inglehart, 1979)
+  2. Democratic Phoenix (Norris, 2002)
+  3. Changing citizenship norms. (Dalton, 2008)
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## Trends in Political Participation
+
+* ESS data from 2002 - 2019
+* Six items:
+  1. Vote
+  2. Boycot product
+  3. Contact politician
+  4. Public demonstration
+  5. Petition
+  6. Campaign Badge
+
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## Trends in Political Participation
+
+```{r graph all,  fig.retina= 3,  fig.align='center', fig.width= 8, fig.height=7}
+
+#load in ESS data
+load("data/ess_combined.Rdata")
+
+#create a subset of political activities.
+#We need two datasets. One longitudinal and one for only edition 9 (because online participation)
+
+#creating the lognitudinal file
+#for the weight we need pspwght (not in wave 9) so two seperate steps
+ess_longitudinal <- map(ess_files[1:8], function (x) {
+  data <- x %>%
+    dplyr::select(name, idno, cntry, vote, contplt, wrkprty, wrkorg, badge, sgnptit, pbldmn, bctprd, pspwght, pweight) %>%
+    mutate(vote = ifelse(vote > 2, NA, vote), 
+           anweight = pspwght*pweight) %>%
+    dplyr::select(name, idno, cntry, vote, contplt, wrkprty, wrkorg, badge, sgnptit, pbldmn, bctprd,anweight)
+  
+  return(data)
+})
+
+ess_longitudinal[[9]] <- ess_files[[9]] %>%
+  dplyr::select(name, idno, cntry, vote, contplt, wrkprty, wrkorg, badge, sgnptit, pbldmn, bctprd, anweight) %>%
+  mutate(vote = ifelse(vote > 2, NA, vote))
+
+#stack the datasets. 
+ess_longitudinal %<>%
+  rbindlist()
+
+#change the coding from 1-2 to 0-1.
+recoded <- ess_longitudinal %>%
+  dplyr::select(vote, contplt, wrkprty, wrkorg, badge, sgnptit, pbldmn, bctprd) %>%
+  map_dfc(function(x) ifelse(x == 2, 0, 1))
+
+#switch the columns.
+ess_longitudinal %<>%
+  dplyr::select(name, idno, cntry, anweight) %>%
+  cbind(recoded)
+
+ess_longitudinal %<>%
+  mutate(year = ifelse(name == "ESS1e06_6", 2002, NA)) %>%
+  mutate(year = ifelse(name == "ESS2e03_6", 2004, year)) %>%
+  mutate(year = ifelse(name == "ESS3e03_7", 2006, year)) %>%
+  mutate(year = ifelse(name == "ESS4e04_5", 2008, year)) %>%
+  mutate(year = ifelse(name == "ESS5e03_4", 2010, year)) %>%
+  mutate(year = ifelse(name == "ESS6e02_4", 2012, year)) %>%
+  mutate(year = ifelse(name == "ESS7e02_2", 2014, year)) %>%
+  mutate(year = ifelse(name == "ESS8e02_1", 2016, year)) %>%
+  mutate(year = ifelse(name == "ESS9e03_1", 2018, year))
+
+
+sample <- c("DE", "BE", "DK", "SE", "CH", "IT", "FR", "ES", "PT", "GB", "NL")
+
+
+#create plot file.
+plot_data_year <- ess_longitudinal %>%
+  filter(cntry %in% sample) %>%
+  group_by(year) %>%
+  summarise(mean_contplt = weighted.mean(contplt, anweight, na.rm = T),
+            mean_badge = weighted.mean(badge, anweight, na.rm = T),
+            mean_sgnptit = weighted.mean(sgnptit, anweight, na.rm = T),
+            mean_pbldmn = weighted.mean(pbldmn, anweight, na.rm = T),
+            mean_bctprd = weighted.mean(bctprd, anweight, na.rm = T),
+            mean_vote = weighted.mean(vote, anweight, na.rm = T)) %>%
+  ungroup() %>%
+  pivot_longer(mean_contplt:mean_vote, names_to = "variable") %>%
+  mutate(variable = ifelse(variable == "mean_contplt", "Contacts politician", variable),
+         variable = ifelse(variable == "mean_badge", "Wears badge", variable),
+         variable = ifelse(variable == "mean_sgnptit", "Signs petition", variable),
+         variable = ifelse(variable == "mean_pbldmn", "Demonstrates", variable),
+         variable = ifelse(variable == "mean_bctprd", "Boycots product", variable),
+         variable = ifelse(variable == "mean_vote", "Votes", variable))
+
+plot_data_year %>%
+  ggplot(aes(x = year, y = value*100, color = variable)) +
+  geom_smooth(method = "lm") +
+  geom_point() +
+  scale_x_continuous(breaks = 2002:2018) +
+  scale_y_continuous(breaks = seq(0,100, by = 10), limits = c(0,100)) +
+  theme(panel.background = element_rect(fill = "#E0E0E0"),
+        plot.background = element_rect(fill = "#E0E0E0"),
+        panel.grid = element_line(colour = "grey"),
+        text = element_text(family = "sans", size = 12), 
+        axis.title.x = element_blank(),
+        strip.background = element_rect(fill = "#A9A9A9"),
+        panel.grid.minor = element_blank(),
+        legend.position = "top",
+        legend.title = element_blank(),
+        legend.background = element_rect(fill = "#E0E0E0"),
+        legend.key = element_rect(fill = "#E0E0E0")) +
+  scale_color_viridis(discrete = T) + 
+  labs(x = "Year", y = "Percentage", title = "Figure 3. Trend in Political Participation between 2002 and 2018",
+       caption = "European Social Survey")
+
+plot_data_year_country <- ess_longitudinal %>%
+  group_by(year,cntry) %>%
+  dplyr::summarise(mean_contplt = weighted.mean(contplt, anweight, na.rm = T),
+                   mean_badge = weighted.mean(badge, anweight, na.rm = T),
+                   mean_sgnptit = weighted.mean(sgnptit, anweight, na.rm = T),
+                   mean_pbldmn = weighted.mean(pbldmn, anweight, na.rm = T),
+                   mean_bctprd = weighted.mean(bctprd, anweight, na.rm = T)) %>%
+  pivot_longer(mean_contplt:mean_bctprd, names_to = "variable") %>%
+  mutate(variable = ifelse(variable == "mean_contplt", "Contacts politician", variable),
+         variable = ifelse(variable == "mean_badge", "Wears badge", variable),
+         variable = ifelse(variable == "mean_sgnptit", "Signs petition", variable),
+         variable = ifelse(variable == "mean_pbldmn", "Demonstrates", variable),
+         variable = ifelse(variable == "mean_bctprd", "Boycots product", variable))
+```
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## Trends in Political Participation
+
+```{r graph unconventional only,  fig.retina= 3,  fig.align='center', fig.width= 8, fig.height=7}
+#
+plot_data_year_country %>%
+  filter(cntry %in% sample) %>%
+  mutate(country = ifelse(cntry == "DE", "Germany", cntry),
+         country = ifelse(cntry == "BE", "Belgium", country),
+         country = ifelse(cntry == "DK", "Denmark", country),
+         country = ifelse(cntry == "SE", "Sweden", country),
+         country = ifelse(cntry == "CH", "Switzerland", country),
+         country = ifelse(cntry == "IT", "Italy", country),
+         country = ifelse(cntry == "FR", "France", country),
+         country = ifelse(cntry == "ES", "Spain", country),
+         country = ifelse(cntry == "GB", "United Kingdom", country),
+         country = ifelse(cntry == "NL", "Netherlands", country),
+         country = ifelse(cntry == "PT", "Portugal", country)) %>%
+  ggplot(aes(x = year, y = value*100, color = variable)) +
+  geom_smooth(method = "lm") +
+  geom_point() +
+  scale_y_continuous(breaks = seq(0,100, by = 10), limits = c(0,60)) +
+  theme(panel.background = element_rect(fill = "#E0E0E0"),
+        plot.background = element_rect(fill = "#E0E0E0"),
+        panel.grid = element_line(colour = "grey"),
+        text = element_text(family = "sans", size = 12), 
+        axis.title.x = element_blank(),
+        axis.text.x = element_text(),
+        strip.background = element_rect(fill = "#A9A9A9"),
+        panel.grid.minor = element_blank(),
+        legend.position = "top",
+        legend.title = element_blank(),
+        legend.background = element_rect(fill = "#E0E0E0"),
+        legend.key = element_rect(fill = "#E0E0E0")) +
+  scale_color_viridis(discrete = T) + 
+  facet_wrap(vars(country)) +
+  labs(y = "Percentage",
+       title = "Figure 4. Trend in Political Participation between 2002 and 2018",
+       caption = "Source: European Social Survey")
+```
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+class: center,middle
+# Section 3 
+**Political Participation Profiles**
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+
+## From political activities to politcal participation profiles
+
+Can we actually answer the question on changes in political participation by look at acts?
+
+--
+
+No! But There is an other way of looking at political participation.
+
+**Political Participation Profiles**
+
+--
+
+Study how citizens actually combine different political acts
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## From political activities to political participation profiles
+
+
+```{r profile plot, fig.align= 'center', fig.retina = 3, fig.width = 10, heigth = 5.5}
+
+# profile plot
+load("data/polpart_lCA_results_final.Rdata")
+
+
+#plot LCA M5
+  #use M1 to generate a baseline order which we can use for plotting. 
+  bl <- as.data.frame(LCA_models_final[[1]]$probs)
+  #create a wide data.frame
+  bl <- bl %>%
+    pivot_longer(cols = 1:ncol(bl))
+  #only select the probabilities for succes (thus for participation)
+  #create filter
+  bl$filter <- bl$name %>%
+    str_detect("[2]")
+  #order variables
+  order_vars <- bl %>%
+    filter(filter == T) %>%
+    mutate(name = ifelse(name == "NationalReferendum.Pr.2.", "National referendum", name),
+           name = ifelse(name == "LocalElection.Pr.2.", "Local Elections", name),
+           name = ifelse(name == "NationalElection.Pr.2.", "National Elections", name),
+           name = ifelse(name == "SignPetition.Pr.2.", "Signs petition", name),
+           name = ifelse(name == "LocalReferendum.Pr.2.", "Local referendum", name),
+           name = ifelse(name == "PublicHearing.Pr.2.", "Public hearing", name),
+           name = ifelse(name == "ContactPolitician.Pr.2.", "Contacts politician", name),
+           name = ifelse(name == "DNP.Pr.2.", "Political social media use", name),
+           name = ifelse(name == "PartyMember.Pr.2.", "Party member", name),
+           name = ifelse(name == "NgbhEngagement.Pr.2.", "Neighbourhood engagement", name),
+           name = ifelse(name == "ActionGroup.Pr.2.", "Actiongroup", name),
+           name = ifelse(name == "Protest.Pr.2.", "Protest", name)) %>%
+    arrange(desc(value)) %>%
+    dplyr::select(name)
+  
+  #create function for ordering.  
+  #you can change this part to the number of variables you wish to include in the LCA. 
+  OrderCodeFunction <- function(z, y){
+    y$order <- ifelse(y$name == z[1], 1, NA)
+    y$order <- ifelse(y$name == z[2], 2, y$order)
+    y$order <- ifelse(y$name == z[3], 3, y$order)
+    y$order <- ifelse(y$name == z[4], 4, y$order)
+    y$order <- ifelse(y$name == z[5], 5, y$order)
+    y$order <- ifelse(y$name == z[6], 6, y$order)
+    y$order <- ifelse(y$name == z[7], 7, y$order)
+    y$order <- ifelse(y$name == z[8], 8, y$order) 
+    y$order <- ifelse(y$name == z[9], 9, y$order)
+    y$order <- ifelse(y$name == z[10], 10, y$order)
+    y$order <- ifelse(y$name == z[11], 11, y$order) 
+    y$order <- ifelse(y$name == z[12], 12, y$order)
+    return(y)
+  }
+  
+  #Extract and plot for model
+  plot_data <- as.data.frame(LCA_models_final[[5]]$probs) 
+  plot_data <- plot_data %>%
+    mutate(class = 1:5) %>%
+    pivot_longer(cols = NationalReferendum.Pr.1.:Protest.Pr.2.) 
+  plot_data$filter <- plot_data$name %>%
+    str_detect("[2]")
+  plot_data <- plot_data %>%
+    filter(filter == T) %>%
+    mutate(name = ifelse(name == "NationalReferendum.Pr.2.", "National referendum", name),
+           name = ifelse(name == "LocalElection.Pr.2.", "Local Elections", name),
+           name = ifelse(name == "NationalElection.Pr.2.", "National Elections", name),
+           name = ifelse(name == "SignPetition.Pr.2.", "Signs petition", name),
+           name = ifelse(name == "LocalReferendum.Pr.2.", "Local referendum", name),
+           name = ifelse(name == "PublicHearing.Pr.2.", "Public hearing", name),
+           name = ifelse(name == "ContactPolitician.Pr.2.", "Contacts politician", name),
+           name = ifelse(name == "DNP.Pr.2.", "Political social media use", name),
+           name = ifelse(name == "PartyMember.Pr.2.", "Party member", name),
+           name = ifelse(name == "NgbhEngagement.Pr.2.", "Neighbourhood engagement", name),
+           name = ifelse(name == "ActionGroup.Pr.2.", "Actiongroup", name),
+           name = ifelse(name == "Protest.Pr.2.", "Protest", name))
+  
+  #reorder the labels based on probability of 
+  plot_data <- OrderCodeFunction(z = order_vars$name, y = plot_data)
+  
+  #create the plot and store it in the list.  
+  plot_data <- plot_data %>%
+    mutate(profile = factor(class, levels = 1:5, labels = c("Expressive voters (10.5%)", "Active insiders (6.9%)", "Faithful voters (58.9%)", "Inactive citizens (20.7%)",
+                                                            "Expressive outsiders (3.0%)")))
+
+
+plot_data %>%
+  ggplot(aes(x = order, y = value, colour = profile, shape = profile)) +
+  geom_line(size = 1) +
+  geom_point(size = 2.5) + 
+  scale_x_continuous(breaks = 1:12,labels = order_vars$name, guide = guide_axis(angle = 45)) +
+  scale_y_continuous(breaks = c(0, 0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1)) +
+  scale_color_viridis(discrete = T, option = "D", alpha = 0.7) +
+  theme(panel.background = element_rect(fill = "#E0E0E0"),
+        plot.background = element_rect(fill = "#E0E0E0"),
+        panel.grid = element_line(colour = "grey"),
+        text = element_text(family = "sans", size = 12), 
+        axis.title.x = element_blank(),
+        strip.background = element_rect(fill = "#ADD8E6"),
+        panel.grid.minor = element_blank(),
+        legend.position = "top",
+        legend.title = element_blank(),
+        legend.background = element_rect(fill = "#E0E0E0"),
+        legend.key = element_rect(fill = "#E0E0E0")) +
+  labs(x = "Participatiion act", y = "Probability", colour = "Profile", shape = "Profile",
+       caption = "Source: LISS panel")
+
+```
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+## From political activities to political participation profiles
+```{r coef plot, fig.align='center', fig.width= 6, fig.height= 8, fig.retina= 3}
+# coef plot
+table_3_data <- read_delim(file = "data/polpart_table3.csv", delim = ";")
+
+sample <- c("0", "1 to 11", "12 to 29", "30 to 49", "> 50", "Married (ref. Not married)", "Female (ref. Male)", "Children in household (ref. no children)",
+            "Paid Work (ref. No paid work)", "Income decile", "Internal Efficacy", "pol_no", "pol_fair", "pol_high", "Positive Evaluation of institutions")
+
+table_3_data_subset <-  table_3_data %>%
+  select(variable,profile, se, b) %>%
+  filter(!(variable %in% sample)) %>%
+  mutate(nr = ifelse(variable == "Primary School", 1, NA),
+         nr = ifelse(variable == "Intermediate secondary", 2, nr),
+         nr = ifelse(variable == "Higher secondary", 3, nr),
+         nr = ifelse(variable == "Intermediate vocational", 4, nr),
+         nr = ifelse(variable == "Higher vocational", 5, nr),
+         nr = ifelse(variable == "University", 6, nr),
+         nr = ifelse(variable == "Age", 7, nr),
+         nr_fac = factor(nr, levels = 1:7, labels = c("basisonderwijs", " vmbo",
+                                                      "havo/vwo", "mbo",
+                                                      "hbo", "wo", "leeftijd")),
+         se = abs(se),
+         neg = ifelse(b < 0, 1, 0),
+         sig = ifelse((neg == 1) & ((b + 1.96*se) < 0 ), 1, NA),
+         sig = ifelse((neg == 0) & ((b - 1.96*se) > 0 ), 1, sig),
+         sig = ifelse(is.na(sig), 0, 1))
+
+
+table_3_data_subset %>%
+  ggplot(aes(y = b, x = nr_fac, colour = as.factor(sig))) +
+  geom_point(position = position_dodge(width = 0.8)) + 
+  geom_pointrange(aes(ymin = b - se*1.96, ymax = b + se*1.96), position = position_dodge(width = 0.8)) +
+  coord_flip() +
+  geom_hline(yintercept = 0) +
+  facet_wrap(vars(profile), ncol = 1) +
+  scale_color_manual(values = c("#21908CFF", "#440154FF")) + 
+  theme(panel.background = element_rect(fill = "#E0E0E0"),
+        plot.background = element_rect(fill = "#E0E0E0"),
+        panel.grid = element_line(colour = "grey"),
+        text = element_text(family = "sans", size = 12), 
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        strip.background = element_rect(fill = "#A9A9A9"),
+        panel.grid.minor = element_blank(),
+        legend.position = "bottom",
+        legend.background = element_rect(fill = "#E0E0E0"),
+        legend.key = element_rect(fill = "#E0E0E0")) +
+  labs(colour = "Significantie", caption = "Bron: LISS panel \n 
+       a = 0.05")
+```
+
+
+```{r biblio, results = 'asis', echo = F}
+PrintBibliography(myBib)
+```
+
+---
+background-image: url(ru_nl_1.jpg)
+background-size: 20%
+background-position: 95% 5%
+
+# More info
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+Check out the R Markdown source at the [**Github repository**]() .
